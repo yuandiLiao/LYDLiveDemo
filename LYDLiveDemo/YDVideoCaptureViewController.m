@@ -36,6 +36,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.title = @"yuandiLiao";
     [self captureVideoAndAudio];
     [self.view addSubview:self.closeButton];
     [self.view addSubview:self.changeCameraPositionButton];

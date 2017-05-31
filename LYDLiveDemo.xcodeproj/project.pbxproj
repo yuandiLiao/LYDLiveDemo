@@ -16,6 +16,8 @@
 		7F62A3781E67F88C00766911 /* LYDLiveDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F62A3771E67F88C00766911 /* LYDLiveDemoTests.m */; };
 		7F62A3831E67F88C00766911 /* LYDLiveDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F62A3821E67F88C00766911 /* LYDLiveDemoUITests.m */; };
 		7F62A3921E67F96F00766911 /* YDVideoCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F62A3911E67F96F00766911 /* YDVideoCaptureViewController.m */; };
+		7F694DFA1E8CAB20007D7AD5 /* YDGPUImageCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F694DF91E8CAB20007D7AD5 /* YDGPUImageCaptureViewController.m */; };
+		E02B251A49B9BC6DBC5C2973 /* libPods-LYDLiveDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0724C606FF5257EE4B20A6 /* libPods-LYDLiveDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06EC54EF473804BB1305D63C /* Pods-LYDLiveDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYDLiveDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYDLiveDemo/Pods-LYDLiveDemo.release.xcconfig"; sourceTree = "<group>"; };
+		0A27EE900DD174FA4C825B34 /* Pods-LYDLiveDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYDLiveDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYDLiveDemo/Pods-LYDLiveDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7E0724C606FF5257EE4B20A6 /* libPods-LYDLiveDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LYDLiveDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F62A35A1E67F88C00766911 /* LYDLiveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYDLiveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F62A35E1E67F88C00766911 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F62A3601E67F88C00766911 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,6 +60,9 @@
 		7F62A3901E67F96F00766911 /* YDVideoCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDVideoCaptureViewController.h; sourceTree = "<group>"; };
 		7F62A3911E67F96F00766911 /* YDVideoCaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDVideoCaptureViewController.m; sourceTree = "<group>"; };
 		7F62A3941E67FE7400766911 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7F694DF81E8CAB20007D7AD5 /* YDGPUImageCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDGPUImageCaptureViewController.h; sourceTree = "<group>"; };
+		7F694DF91E8CAB20007D7AD5 /* YDGPUImageCaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDGPUImageCaptureViewController.m; sourceTree = "<group>"; };
+		7F694DFB1E8CB75B007D7AD5 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E02B251A49B9BC6DBC5C2973 /* libPods-LYDLiveDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DF9ADDC45A7F91E6910A799 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E0724C606FF5257EE4B20A6 /* libPods-LYDLiveDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7F62A3511E67F88C00766911 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +106,8 @@
 				7F62A3761E67F88C00766911 /* LYDLiveDemoTests */,
 				7F62A3811E67F88C00766911 /* LYDLiveDemoUITests */,
 				7F62A35B1E67F88C00766911 /* Products */,
+				8144FFF59FBDFAC920B60E28 /* Pods */,
+				2DF9ADDC45A7F91E6910A799 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +130,9 @@
 				7F62A3641E67F88C00766911 /* ViewController.m */,
 				7F62A3901E67F96F00766911 /* YDVideoCaptureViewController.h */,
 				7F62A3911E67F96F00766911 /* YDVideoCaptureViewController.m */,
+				7F694DF81E8CAB20007D7AD5 /* YDGPUImageCaptureViewController.h */,
+				7F694DF91E8CAB20007D7AD5 /* YDGPUImageCaptureViewController.m */,
+				7F694DFB1E8CB75B007D7AD5 /* Header.h */,
 				7F62A3941E67FE7400766911 /* PrefixHeader.pch */,
 				7F62A3661E67F88C00766911 /* Main.storyboard */,
 				7F62A3691E67F88C00766911 /* Assets.xcassets */,
@@ -147,6 +169,15 @@
 			path = LYDLiveDemoUITests;
 			sourceTree = "<group>";
 		};
+		8144FFF59FBDFAC920B60E28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A27EE900DD174FA4C825B34 /* Pods-LYDLiveDemo.debug.xcconfig */,
+				06EC54EF473804BB1305D63C /* Pods-LYDLiveDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -154,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F62A3871E67F88C00766911 /* Build configuration list for PBXNativeTarget "LYDLiveDemo" */;
 			buildPhases = (
+				C31C33D770BBEC3560401B30 /* [CP] Check Pods Manifest.lock */,
 				7F62A3561E67F88C00766911 /* Sources */,
 				7F62A3571E67F88C00766911 /* Frameworks */,
 				7F62A3581E67F88C00766911 /* Resources */,
+				BC615C1C0B5005D9EAEBA838 /* [CP] Embed Pods Frameworks */,
+				3648ABE10F40A52475CE59D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -278,6 +312,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3648ABE10F40A52475CE59D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYDLiveDemo/Pods-LYDLiveDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC615C1C0B5005D9EAEBA838 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYDLiveDemo/Pods-LYDLiveDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C31C33D770BBEC3560401B30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7F62A3561E67F88C00766911 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -286,6 +368,7 @@
 				7F62A3651E67F88C00766911 /* ViewController.m in Sources */,
 				7F62A3921E67F96F00766911 /* YDVideoCaptureViewController.m in Sources */,
 				7F62A3621E67F88C00766911 /* AppDelegate.m in Sources */,
+				7F694DFA1E8CAB20007D7AD5 /* YDGPUImageCaptureViewController.m in Sources */,
 				7F62A35F1E67F88C00766911 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,11 +516,12 @@
 		};
 		7F62A3881E67F88C00766911 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A27EE900DD174FA4C825B34 /* Pods-LYDLiveDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G94VYVQQLB;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/yuandiLiao/Desktop/LYDLiveDemo/LYDLiveDemo/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LYDLiveDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = LYDLiveDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.holdfun.fun.LYDLiveDemo;
@@ -447,11 +531,12 @@
 		};
 		7F62A3891E67F88C00766911 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06EC54EF473804BB1305D63C /* Pods-LYDLiveDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G94VYVQQLB;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/yuandiLiao/Desktop/LYDLiveDemo/LYDLiveDemo/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LYDLiveDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = LYDLiveDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.holdfun.fun.LYDLiveDemo;
@@ -528,6 +613,7 @@
 				7F62A3891E67F88C00766911 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F62A38A1E67F88C00766911 /* Build configuration list for PBXNativeTarget "LYDLiveDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +622,7 @@
 				7F62A38C1E67F88C00766911 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F62A38D1E67F88C00766911 /* Build configuration list for PBXNativeTarget "LYDLiveDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +631,7 @@
 				7F62A38F1E67F88C00766911 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
